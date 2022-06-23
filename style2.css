@@ -1,0 +1,104 @@
+*{
+    margin: 0px;
+    padding:0px;
+    }
+
+body{
+    width: 100%;
+    height: 100%;
+    background-image: url(ritika3.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+  }
+.first{
+    box-sizing: border-box;
+    background-color: white;
+    padding-bottom: 15px;
+    color: rgb(26, 48, 66);
+    text-align: left;
+
+}
+#head1{
+    margin-left: 5rem;
+    padding-top: 10px;
+    font-size: 30px;
+}
+.container{
+    width: 40%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    top: 40%;
+    left: 50%;
+    padding: 30px 40px;
+}
+#newtask{
+    position: relative;
+    background-color: antiquewhite;
+    padding: 30px 20px;
+    border-radius: 5px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+}
+#newtask input{
+    width: 70%;
+    width: 70%;
+    height: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    border: 2px solid gray;
+    padding: 12px;
+    color: #111;
+    font-weight: 500;
+    position: relative;
+}
+#newtask button{
+    position: relative;
+    float: right;
+    width: 20%;
+    height: 55px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    background-color: rgba(110, 167, 24, 0.76);
+    border: none;
+    color: #ffff;
+    cursor: pointer;
+}
+#tasks{
+    background-color: antiquewhite;
+    padding: 30px 20px;
+    margin-top: 60px;
+    border-radius: 10px;
+    box-shadow: 0 15px 30px rgba(0,0,0,0.3);
+    width: 93%;
+    position: relative;
+}
+.task{
+    background-color: #ffff;
+    height: 50px;
+    padding: 5px 10px;
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 2px solid gray;
+    cursor: pointer;
+}
+.task span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+}
+.task button{
+    background-color: red;
+    color: #ffff;
+    height: 80%;
+    width: 40px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    outline: none;
+}
+.completed{
+    text-decoration: line-through;
+}
